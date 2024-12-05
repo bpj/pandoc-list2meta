@@ -1,0 +1,60 @@
+{.metadata}
+:   foo
+
+    bar
+
+:   baz
+
+    -   tic
+    -   tac
+    -   toc
+    
+:   quux
+
+    A *list of inlines!*
+
+:   bool
+
+    `true`{=bool}
+
+:   string
+
+    `true`{=str}
+
+:   big string
+
+    ```=str
+    First line.
+    Second line.
+    Third line.
+    ```
+    
+:   bing
+
+    :   bang
+
+        bong
+
+:   alpha
+
+    {.nometa}
+    :   Latin
+
+        -   a
+        -   b
+        -   c
+
+    :   Greek
+
+        -   α
+        -   β
+        -   γ
+
+    :   Cyrillic
+
+        -   а
+        -   б
+        -   в
+        -   г
+
+This is a paragraph
